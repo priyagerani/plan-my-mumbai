@@ -1,0 +1,347 @@
+{
+  "categories": [
+    {
+      "id": "wedding",
+      "name": "Wedding",
+      "row": 1,
+      "icon": "ring",
+      "image": "./assets/wedding.jpg",
+      "tagline": "Grand Mandaps, Ceremonies & Banquets",
+      "color": "from-teal-600 to-emerald-700",
+      "subcategories": [
+        { "id": "full_wedding", "name": "Full Wedding Planning", "desc": "End-to-end multi-day celebration management in Mumbai" },
+        { "id": "haldi", "name": "Haldi Ceremony", "desc": "Yellow floral vibes, dhol & intimate family rituals" },
+        { "id": "mehendi", "name": "Mehendi", "desc": "Henna artists, colorful seating & musical celebration" },
+        { "id": "sangeet", "name": "Sangeet Night", "desc": "Choreographed performances, DJ & cocktail dinner" },
+        { "id": "cocktail_party", "name": "Cocktail Party", "desc": "Modern lounge party with mocktails & gourmet appetizers" },
+        { "id": "wedding_ceremony", "name": "Wedding Ceremony (Pheras / Nikah / Church)", "desc": "Sacred vows, traditional mandap & ritual coordination" },
+        { "id": "reception", "name": "Wedding Reception", "desc": "Grand banquet gathering, live stage & lavish buffet" }
+      ]
+    },
+    {
+      "id": "engagement",
+      "name": "Engagement",
+      "row": 1,
+      "icon": "heart",
+      "image": "./assets/engagement.jpg",
+      "tagline": "Beginning of Forever",
+      "color": "from-teal-500 to-cyan-600",
+      "subcategories": [
+        { "id": "roka_sagan", "name": "Roka / Sagan", "desc": "Traditional family agreement ritual & gift exchange" },
+        { "id": "ring_ceremony", "name": "Ring Ceremony (Engagement Party)", "desc": "Ring exchange, banquet styling, cake & family party" }
+      ]
+    },
+    {
+      "id": "corporate",
+      "name": "Corporate Events",
+      "row": 1,
+      "icon": "briefcase",
+      "image": "./assets/corporate.jpg",
+      "tagline": "Professional & Seamless Staging",
+      "color": "from-slate-700 to-teal-800",
+      "subcategories": [
+        { "id": "annual_day", "name": "Annual Day / Office Party", "desc": "Celebration of company milestones, awards & DJ night" },
+        { "id": "conference", "name": "Conference / Seminar", "desc": "AV setup, stage production, catering & delegate kits" },
+        { "id": "product_launch", "name": "Product Launch", "desc": "Press reveal, experiential staging & influencer invites" },
+        { "id": "team_offsite", "name": "Team Offsite / Outing", "desc": "Lonavala/Alibaug/Thane resort retreats & team building" }
+      ]
+    },
+    {
+      "id": "festival_community",
+      "name": "Festival & Community",
+      "row": 1,
+      "icon": "sparkles",
+      "image": "./assets/festival.jpg",
+      "tagline": "Cultural Spirit & Unity",
+      "color": "from-teal-600 to-amber-600",
+      "subcategories": [
+        { "id": "ganesh_chaturthi", "name": "Ganesh Chaturthi", "desc": "Aagman, society pandal decor, prasad & visarjan setup" },
+        { "id": "navratri_garba", "name": "Navratri / Garba Night", "desc": "Dandiya beats, ethnic decor, lighting & pass management" },
+        { "id": "diwali", "name": "Diwali Celebration", "desc": "Diyas, lanterns, corporate gifting & Diwali party catering" },
+        { "id": "durga_puja", "name": "Durga Puja", "desc": "Traditional pandal styling, bhog distribution & cultural stage" },
+        { "id": "holi", "name": "Holi Party", "desc": "Organic gulal, rain dance, thandai counter & dhol tasha" },
+        { "id": "eid", "name": "Eid Milan Gathering", "desc": "Lavish feast, biryani & sheer khurma spreads, festive decor" },
+        { "id": "christmas", "name": "Christmas Celebration", "desc": "Tree decor, carolers, gingerbread stalls & holiday dinner" },
+        { "id": "other_festivals", "name": "Other Festival (Onam, Pongal, Lohri...)", "desc": "Customized traditional community celebrations" }
+      ]
+    },
+    {
+      "id": "birthday",
+      "name": "Birthday",
+      "row": 2,
+      "icon": "cake",
+      "image": "./assets/birthday.jpg",
+      "tagline": "Milestones & Joyful Smiles",
+      "color": "from-teal-500 to-emerald-600",
+      "subcategories": [
+        { "id": "kids_party", "name": "Kids' Party", "desc": "Themed decor, activity corners, kid-friendly catering & return gifts", "flowRef": "birthday_kids" },
+        { "id": "first_birthday", "name": "First Birthday", "desc": "Sweet pastel styling, cake smash photoshoot & family gathering" },
+        { "id": "milestone_birthday", "name": "Milestone Birthday (e.g. 50th)", "desc": "Elegant dinner party, nostalgic video montage & live music" }
+      ]
+    },
+    {
+      "id": "baby_events",
+      "name": "Baby Events",
+      "row": 2,
+      "icon": "baby",
+      "image": "./assets/baby.jpg",
+      "tagline": "Cherished New Beginnings",
+      "color": "from-teal-400 to-cyan-500",
+      "subcategories": [
+        { "id": "baby_shower", "name": "Baby Shower (Godh Bharai)", "desc": "Floral jewellery, mom-to-be throne, baby games & high tea" },
+        { "id": "namkaran", "name": "Naming Ceremony (Namkaran)", "desc": "Traditional cradle decor, priest arrangements & satvik feast" },
+        { "id": "welcome_baby", "name": "Welcome Baby / Newborn Celebration", "desc": "Hospital homecoming decor, cradle setup, floral torans & family celebration" },
+        { "id": "mundan", "name": "Mundan Ceremony", "desc": "Traditional first haircut rites and festive family lunch" }
+      ]
+    },
+    {
+      "id": "anniversary",
+      "name": "Anniversary",
+      "row": 2,
+      "icon": "gem",
+      "image": "./assets/anniversary.jpg",
+      "tagline": "Years of Love & Memories",
+      "color": "from-teal-600 to-indigo-600",
+      "subcategories": [
+        { "id": "silver_jubilee", "name": "Silver Jubilee (25th)", "desc": "Silver accents, vow renewal, nostalgic playlist & banquet dinner" },
+        { "id": "golden_jubilee", "name": "Golden Jubilee (50th)", "desc": "Grand multi-generational gala, heritage styling & documentary film" },
+        { "id": "other_anniversary", "name": "Other Anniversary", "desc": "Intimate candlelit dinners or lively family bashes" }
+      ]
+    },
+    {
+      "id": "housewarming_religious",
+      "name": "Housewarming & Religious",
+      "row": 2,
+      "icon": "home",
+      "image": "./assets/housewarming.jpg",
+      "tagline": "Auspicious Beginnings & Blessings",
+      "color": "from-teal-700 to-amber-700",
+      "subcategories": [
+        { "id": "griha_pravesh", "name": "Griha Pravesh", "desc": "Havan, floral toran, threshold pooja & auspicious prasadam feast" },
+        { "id": "satyanarayan_puja", "name": "Satyanarayan Puja", "desc": "Traditional puja samagri, pandit ji coordination & panchamrit" },
+        { "id": "jagrata", "name": "Jagrata", "desc": "Mata ki chowki mandali, sound setup, prasad & all-night bhajan" }
+      ]
+    },
+    {
+      "id": "society_rwa",
+      "name": "Society / RWA Events",
+      "row": 3,
+      "icon": "users",
+      "image": "./assets/society.jpg",
+      "tagline": "Neighborhood Fellowship",
+      "color": "from-teal-500 to-sky-600",
+      "subcategories": [
+        { "id": "festival_gathering", "name": "Festival Gathering", "desc": "Society clubhouse festive melas, food pop-ups & cultural shows" },
+        { "id": "nye_party", "name": "New Year's Eve Party", "desc": "Countdowns, live DJ setup, buffet dinner & society fireworks" },
+        { "id": "sports_day", "name": "Sports Day", "desc": "Marathon, cricket league, podium ceremonies & energy snacks" }
+      ]
+    },
+    {
+      "id": "others",
+      "name": "Others",
+      "row": 3,
+      "isCentered": true,
+      "icon": "stars",
+      "image": "./assets/others.jpg",
+      "tagline": "Bespoke & Unforgettable Occasions",
+      "color": "from-teal-600 to-emerald-500",
+      "subcategories": [
+        { "id": "proposal", "name": "Proposal (Surprise Setup)", "desc": "Cabrera lights, romantic cabana, sea-view rooftop & hidden photographer" },
+        { "id": "house_party", "name": "House Party", "desc": "Living room vibe, cocktail dispenser, finger snacks & curated playlist" },
+        { "id": "kitty_party", "name": "Kitty Party", "desc": "High tea delicacies, interactive parlor games & thematic table styling" },
+        { "id": "bachelor_party", "name": "Bachelor / Bachelorette Party", "desc": "Weekend villa escape in Alibaug/Karjat, themed merchandise & fun games" },
+        { "id": "bridal_shower", "name": "Bridal Shower", "desc": "Chic pastel brunch, personalized champagne flutes & bridesmaid treats" },
+        { "id": "farewell_retirement", "name": "Farewell / Retirement Party", "desc": "Tribute slideshow, memory book, toast ceremonies & dinner" },
+        { "id": "graduation_party", "name": "Graduation Party", "desc": "Cap-and-gown photo booth, diploma cupcakes & youth music" },
+        { "id": "college_fest", "name": "College Fest / Reunion", "desc": "Stage rigging, sound & light equipment, batch alumni dinner" },
+        { "id": "fundraiser", "name": "Fundraiser / Charity Event", "desc": "Keynote audio setup, donor registry, silent auction & banquet" },
+        { "id": "exhibition", "name": "Exhibition", "desc": "Exhibition stalls, spotlights, visitor registration & signage" },
+        { "id": "custom_event", "name": "Custom Event (type your own)", "desc": "Design your tailored event experience from scratch" }
+      ]
+    }
+  ],
+  "flows": {
+    "birthday_kids": {
+      "title": "Kids' Birthday Party Planning Flow",
+      "subtitle": "Everything you need to plan a memorable celebration in Mumbai",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "The Foundation (4-8 weeks out)",
+          "subtitle": "Set your core constraints: budget, guest count, and date countdown",
+          "type": "foundation",
+          "fields": [
+            { "id": "guestCount", "label": "Number of Expected Guests (Kids + Parents)", "type": "number", "default": 30, "min": 5, "max": 250 },
+            { "id": "totalBudget", "label": "Target Total Budget (₹)", "type": "currency", "default": 45000, "min": 5000, "step": 1000 },
+            { "id": "eventDate", "label": "Event Date & Time", "type": "datetime-local", "defaultDaysAhead": 30 }
+          ]
+        },
+        {
+          "stepNumber": 2,
+          "title": "Venue Selection",
+          "subtitle": "Choose one of three venue styles tailored for kids in Mumbai",
+          "type": "venue_selector",
+          "options": [
+            {
+              "id": "home",
+              "name": "At Home",
+              "tag": "Cheapest & Most Flexible",
+              "description": "Cheapest and most flexible option. Best for intimate groups (10-25 kids). You handle setup and cleanup, but have total control over schedule and house comfort.",
+              "pros": "Zero hall rent, familiar environment for toddlers, flexible timing",
+              "cons": "Living room wear-and-tear, post-party cleanup effort",
+              "mumbaiTip": "Clear breakables and cushion sharp furniture edges. Book society elevator maintenance in advance if in high-rise."
+            },
+            {
+              "id": "community_hall",
+              "name": "Banquet Halls or Lawns",
+              "tag": "Good for Active Kids & Larger Groups",
+              "description": "Ideal for active kids and larger gatherings (30-100+ guests). Gives room for games, stage setup, and buffet spread. Check booking rules early and have a solid rain/heat backup plan.",
+              "pros": "Ample space, dedicated catering area, lawn running room",
+              "cons": "Need to bring in your own sound and decor, booking deposit required",
+              "mumbaiTip": "Recommended verified spots: Bandra Gymkhana Lawn, PTKS Vile Parle, or Juhu/Thane clubhouses."
+            },
+            {
+              "id": "play_centre",
+              "name": "Restaurant or Activity Places",
+              "tag": "Zero Hassle & Maximum Fun",
+              "description": "Costs more per child, but takes virtually all the stress and coordination off your plate with dedicated party hosts, built-in soft play or dining, and catering included.",
+              "pros": "Built-in soft play or arcade, private party coordinator, easy parent drop-off",
+              "cons": "Strict 2-hour party windows, higher per-head cost",
+              "mumbaiTip": "Recommended verified spots: Funky Monkeys (Lower Parel/Andheri), Hop N Bop (Khar/Bandra), Smaaash (Lower Parel)."
+            }
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "title": "Invitations",
+          "subtitle": "Choose digital or printed invites for your guests",
+          "type": "invitation_selector",
+          "options": [
+            {
+              "id": "digital",
+              "name": "Digital E-Invite (WhatsApp / Video)",
+              "badge": "Eco-friendly & Instant RSVP",
+              "desc": "Animated motion graphic or elegant PDF card sent straight via WhatsApp with RSVP tracking."
+            },
+            {
+              "id": "printed",
+              "name": "Custom Printed Cards",
+              "badge": "Tactile & Keepsake Quality",
+              "desc": "Themed physical card with custom stickers and envelopes to hand out in school and family.",
+              "showVendors": true,
+              "vendorCategory": "invitations"
+            }
+          ]
+        },
+        {
+          "stepNumber": 4,
+          "title": "Food & Drink: End-to-End Catering Services",
+          "subtitle": "Popular catering vendors in Mumbai with live stations & kid-tested menus",
+          "type": "vendor_showcase",
+          "vendorCategory": "catering",
+          "highlightTopVendor": "cat-atmosfire",
+          "topVendorNote": "Top Recommendation: Barbeque Nation Atmosfire Catering delivers hot live barbecue grills and kid-friendly party buffets across Mumbai & Suburbs."
+        },
+        {
+          "stepNumber": 5,
+          "title": "Decorations & Setup",
+          "subtitle": "Themed balloon arches, custom photo backdrops, and cake table styling",
+          "type": "vendor_showcase",
+          "vendorCategory": "decorations"
+        },
+        {
+          "stepNumber": 6,
+          "title": "Return Gifts & Favors",
+          "subtitle": "Thoughtful, educational, and fun favors kids take home",
+          "type": "vendor_showcase",
+          "vendorCategory": "returnGifts"
+        },
+        {
+          "stepNumber": 7,
+          "title": "Optional: Choose a Party Theme",
+          "subtitle": "Tie your invitations, cake, and decor together under a cohesive aesthetic",
+          "type": "theme_selector",
+          "themes": [
+            { "id": "space", "name": "Galaxy & Space Explorer", "icon": "rocket" },
+            { "id": "jungle", "name": "Wild Jungle Safari", "icon": "tree" },
+            { "id": "superhero", "name": "Superhero Academy", "icon": "shield" },
+            { "id": "underwater", "name": "Under the Sea & Mermaids", "icon": "water" },
+            { "id": "unicorn", "name": "Pastel Unicorn & Fairytale", "icon": "star" },
+            { "id": "dino", "name": "Dino Dig & Jurassic Roar", "icon": "bone" },
+            { "id": "carnival", "name": "Circus & Vintage Carnival", "icon": "tent" },
+            { "id": "custom", "name": "Custom Theme", "icon": "palette" }
+          ]
+        },
+        {
+          "stepNumber": 8,
+          "title": "Optional Activity Corners",
+          "subtitle": "Free-flow stations kids can drift between while the main program runs",
+          "type": "activity_corners",
+          "corners": [
+            {
+              "id": "act_tattoo",
+              "title": "Tattoo Counter",
+              "tag": "Most Popular",
+              "description": "Temporary tattoos or face and hand painting. Use skin-safe, non-toxic products and check for allergies.",
+              "guidance": "Book an experienced artist who uses FDA-approved cosmetic paints and single-use cosmetic sponges. Set up near bright lighting.",
+              "vendorCategory": "activities"
+            },
+            {
+              "id": "act_games",
+              "title": "Games Corner",
+              "tag": "Active & High Energy",
+              "description": "Ring toss, bean bag toss, mini bowling, giant Jenga, board games, or a carnival-style stall with small prizes.",
+              "guidance": "Have an enthusiastic older sibling or vendor coordinator cheering kids on and handing out sticker or pencil prizes.",
+              "vendorCategory": "activities"
+            },
+            {
+              "id": "act_pastry",
+              "title": "Build-Your-Own Pastry Corner",
+              "tag": "Delicious & Creative",
+              "description": "Cupcake or cookie decorating with frosting, sprinkles, and toppings. Plan one helper per station and have aprons and wipes ready.",
+              "guidance": "Provide pre-baked plain cupcakes, 3 frosting squeeze bottles (vanilla, chocolate, strawberry), sprinkles, chocolate chips, and wet wipes."
+            },
+            {
+              "id": "act_craft",
+              "title": "Craft Corner",
+              "tag": "Calm & Focused",
+              "description": "Bracelet making, painting, clay modelling, or card making. Gives quieter children a creative outlet away from loud games.",
+              "guidance": "Lay down plastic newspaper sheets; supply air-dry non-staining clay and bead stringing sets."
+            },
+            {
+              "id": "act_photobooth",
+              "title": "Photo Booth",
+              "tag": "Keepsake & Parent Favorite",
+              "description": "Props, a backdrop, and a quick instant-print option if budget allows (e.g. Instax/Polaroid or instant photo printer).",
+              "guidance": "Include fun oversized sunglasses, mustache sticks, superhero masks, and a themed photo frame.",
+              "vendorCategory": "photographers"
+            },
+            {
+              "id": "act_slime",
+              "title": "Slime or Sand Art Station",
+              "tag": "Sensory & Trendy",
+              "description": "Messy but very popular with school-age kids. Kids mix colors and take home their custom jar.",
+              "guidance": "Use non-borax child-safe activator formulas and provide small snap-lid plastic tubs for each kid to carry home safely.",
+              "vendorCategory": "activities"
+            },
+            {
+              "id": "act_ministalls",
+              "title": "Mini Stalls",
+              "tag": "Carnival Delight",
+              "description": "Popcorn or candy floss counter, or a mocktail bar with fun syrups, umbrellas and boba pearls.",
+              "guidance": "Fresh aroma adds instant party vibe. Operators bring their own machine and extension cords.",
+              "vendorCategory": "activities"
+            },
+            {
+              "id": "act_hunt",
+              "title": "Treasure or Scavenger Hunt",
+              "tag": "Older Kids Favorite",
+              "description": "Good for older kids (ages 7-12) and needs minimal setup: hidden scrolls, riddle clues, and a shared treasure box.",
+              "guidance": "Hide 6-8 rhyming clues around the venue or garden, leading to a locked box filled with foil-wrapped chocolate coins."
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

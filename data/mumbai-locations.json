@@ -1,0 +1,124 @@
+{
+  "regions": [
+    {
+      "id": "south_mumbai",
+      "name": "South Mumbai",
+      "suburbs": [
+        "Colaba",
+        "Fort",
+        "Churchgate",
+        "Marine Lines",
+        "Nariman Point",
+        "Malabar Hill",
+        "Tardeo",
+        "Worli"
+      ]
+    },
+    {
+      "id": "western_suburbs",
+      "name": "Western Suburbs",
+      "suburbs": [
+        "Bandra",
+        "Khar",
+        "Santacruz",
+        "Vile Parle",
+        "Andheri",
+        "Jogeshwari",
+        "Goregaon",
+        "Malad",
+        "Kandivali",
+        "Borivali",
+        "Dahisar"
+      ]
+    },
+    {
+      "id": "eastern_suburbs",
+      "name": "Eastern Suburbs",
+      "suburbs": [
+        "Kurla",
+        "Chembur",
+        "Ghatkopar",
+        "Vikhroli",
+        "Powai",
+        "Bhandup",
+        "Mulund",
+        "Govandi",
+        "Mankhurd"
+      ]
+    },
+    {
+      "id": "thane",
+      "name": "Thane",
+      "suburbs": [
+        "Thane West",
+        "Thane East",
+        "Majiwada",
+        "Ghodbunder Road",
+        "Manpada",
+        "Wagle Estate",
+        "Kalwa",
+        "Mumbra",
+        "Diva"
+      ]
+    },
+    {
+      "id": "navi_mumbai",
+      "name": "Navi Mumbai",
+      "suburbs": [
+        "Vashi",
+        "Sanpada",
+        "Juinagar",
+        "Nerul",
+        "Seawoods",
+        "Belapur",
+        "Kharghar",
+        "Kamothe",
+        "Kalamboli",
+        "Panvel",
+        "Airoli",
+        "Ghansoli",
+        "Kopar Khairane"
+      ]
+    },
+    {
+      "id": "mira_bhayandar",
+      "name": "Mira-Bhayandar",
+      "suburbs": [
+        "Mira Road",
+        "Bhayandar East",
+        "Bhayandar West"
+      ]
+    },
+    {
+      "id": "vasai_virar",
+      "name": "Vasai-Virar",
+      "suburbs": [
+        "Vasai",
+        "Nalasopara",
+        "Virar"
+      ]
+    },
+    {
+      "id": "kalyan_dombivli",
+      "name": "Kalyan-Dombivli",
+      "suburbs": [
+        "Kalyan West",
+        "Kalyan East",
+        "Dombivli East",
+        "Dombivli West",
+        "Thakurli"
+      ]
+    },
+    {
+      "id": "other_extended_mmr",
+      "name": "Other Extended MMR Areas",
+      "suburbs": [
+        "Ulhasnagar",
+        "Ambernath",
+        "Badlapur",
+        "Bhiwandi",
+        "Surrounding MMR Towns"
+      ]
+    }
+  ]
+}

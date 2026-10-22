@@ -1,0 +1,1027 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plan My Mumbai — AI-Native Event Planner | Budgets, Timelines & Vendors</title>
+  
+  <!-- Google Fonts: Luxury Editorial Serif & Pristine Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="/styles.css?v=6">
+</head>
+<body>
+
+  <!-- Top Navigation Bar (Everplanner Style) -->
+  <header class="app-header">
+    <div class="header-container">
+      <a href="/" id="brandLogoLink" class="brand-link" aria-label="Plan My Mumbai Home">
+        <img src="/assets/logo.png" alt="Plan My Mumbai" class="brand-logo-img">
+      </a>
+
+      <div class="header-actions">
+        <a href="#intakeSection" class="btn btn-gold btn-sm">Open the Planner</a>
+
+        <button id="exportPdfBtn" class="btn btn-gold btn-sm" style="display:none;" aria-label="Export Plan to PDF">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M6 9V2h12v7M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2M6 14h12v8H6z"/>
+          </svg>
+          <span>Export to PDF</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main class="main-content">
+
+    <!-- Hero Section (Faithful Everplanner Dark Green & Gold Decor) -->
+    <section class="hero-section">
+      <div class="hero-grid">
+        <div class="hero-text-col">
+          <div class="eyebrow-tag">
+            <span class="eyebrow-line"></span>
+            <span>THE ART OF PLANNING</span>
+          </div>
+
+          <h1 class="hero-headline">
+            The free online event planner for your <span class="italic-serif gold-text">perfect celebration.</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Plan My Mumbai is the AI-powered studio for hosts with taste — your dynamic budget, timeline checklist, grounded Mumbai vendor matches, and bespoke creative concepts, composed into one calm, serene plan.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#intakeSection" class="btn btn-gold btn-lg" id="heroBeginPlanningBtn">Begin Planning — It's Free</a>
+            <a href="#toolkitSection" class="btn btn-outline-gold btn-lg">Discover the Toolkit</a>
+          </div>
+        </div>
+
+        <div class="hero-media-col">
+          <div class="hero-arch-card">
+            <div class="arch-frame">
+              <img src="/assets/hero-arch.jpg" alt="Luxury Mumbai Celebration Venue with Gold Spheres & Starlight Installation" class="arch-image" />
+              <div class="arch-shadow-overlay"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ticker Bar -->
+      <div class="luxury-ticker">
+        <span>FREE FOREVER</span>
+        <span class="ticker-dot">•</span>
+        <span>NO SIGN-UP</span>
+        <span class="ticker-dot">•</span>
+        <span>PRIVATE BY DESIGN</span>
+        <span class="ticker-dot">•</span>
+        <span>EXPORT TO PDF</span>
+        <span class="ticker-dot">•</span>
+        <span>GROUNDED IN MUMBAI</span>
+        <span class="ticker-dot">•</span>
+        <span>MADE WITH CARE</span>
+      </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section id="philosophySection" class="philosophy-section">
+      <div class="section-center-head">
+        <span class="eyebrow-tag-center">— OUR PHILOSOPHY —</span>
+        <h2 class="philosophy-headline">
+          Planning an event should feel like <span class="italic-serif gold-text">anticipation</span>, not administration.
+        </h2>
+        <p class="philosophy-desc">
+          So we replaced the scattered spreadsheets and frantic browser tabs with one serene place — considered, elegant, and entirely free. Everything you need, and nothing you don't.
+        </p>
+        <div class="gold-divider"></div>
+      </div>
+    </section>
+
+    <!-- The 4 Capabilities Toolkit Cards (Directly matching Hackathon Brief) -->
+    <section id="toolkitSection" class="toolkit-section">
+      <div class="section-center-head">
+        <span class="eyebrow-tag-center">— THE TOOLKIT —</span>
+        <h2 class="philosophy-headline">
+          Four capabilities. One <span class="italic-serif gold-text">seamless plan.</span>
+        </h2>
+        <p class="philosophy-desc">
+          From “I’m planning a wedding” to a complete plan, for weddings, birthdays and community events across Mumbai.
+        </p>
+      </div>
+
+      <div class="toolkit-cards-grid">
+        <!-- Card 1: Budget -->
+        <div class="toolkit-card">
+          <div class="tk-card-image tk-img-budget">
+            <img src="/assets/tk-budget.png?v=3" alt="Smart Budget" class="tk-card-img" loading="eager" />
+            <div class="tk-tag">01 / BUDGET</div>
+          </div>
+          <div class="tk-card-body">
+            <h3 class="tk-title">Smart Budget</h3>
+            <p class="tk-desc">Enter your guest count and total spend. The AI splits it across categories and explains every trade-off in plain language.</p>
+            <a href="#intakeSection" class="tk-link">Explore budget &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Card 2: Timeline -->
+        <div class="toolkit-card">
+          <div class="tk-card-image tk-img-timeline">
+            <img src="/assets/tk-timeline.png?v=3" alt="Adaptive Timeline" class="tk-card-img" loading="eager" />
+            <div class="tk-tag">02 / TIMELINE</div>
+          </div>
+          <div class="tk-card-body">
+            <h3 class="tk-title">Adaptive Timeline</h3>
+            <p class="tk-desc">A plan built around your date, from a 12-week countdown to an hour-by-hour run of show.</p>
+            <a href="#intakeSection" class="tk-link">Explore timeline &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Card 3: Vendors -->
+        <div class="toolkit-card">
+          <div class="tk-card-image tk-img-vendors">
+            <img src="/assets/tk-vendors.svg?v=3" alt="Vendor Checklists" class="tk-card-img" loading="eager" />
+            <div class="tk-tag">03 / VENDORS</div>
+          </div>
+          <div class="tk-card-body">
+            <h3 class="tk-title">Vendor Checklists</h3>
+            <p class="tk-desc">What to look for, what to ask, and matching Mumbai vendors, with one-tap WhatsApp enquiries.</p>
+            <a href="#intakeSection" class="tk-link">Explore vendors &rarr;</a>
+          </div>
+        </div>
+
+        <!-- Card 4: Ideas -->
+        <div class="toolkit-card">
+          <div class="tk-card-image tk-img-ideas">
+            <img src="/assets/tk-ideas.png?v=3" alt="Personalised Ideas" class="tk-card-img" loading="eager" />
+            <div class="tk-tag">04 / IDEAS</div>
+          </div>
+          <div class="tk-card-body">
+            <h3 class="tk-title">Personalised Ideas</h3>
+            <p class="tk-desc">Themes, colour palettes, activities and menus tailored to your event, plus a ready-to-send WhatsApp invite.</p>
+            <a href="#intakeSection" class="tk-link">Explore ideas &rarr;</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Seamless Requirement Highlight -->
+      <div class="seamless-banner">
+        <p class="seamless-text">Describe your event once. Get all four, together.</p>
+      </div>
+    </section>
+
+    <!-- Why Plan My Mumbai Section (Directly from User Screenshot!) -->
+    <section id="whySection" class="why-section">
+      <div class="why-container">
+        <div class="eyebrow-tag">— WHY PLAN MY MUMBAI —</div>
+        <h2 class="why-headline">Luxury is in the <span class="italic-serif gold-text">details.</span></h2>
+
+        <div class="why-features-list">
+          <!-- Item 1 -->
+          <div class="why-item">
+            <div class="why-icon-circle">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+            </div>
+            <div class="why-item-content">
+              <h3 class="why-item-title">Free, forever</h3>
+              <p class="why-item-desc">Every core planning tool is free — no trial, no paywall, no credit card.</p>
+            </div>
+          </div>
+
+          <!-- Item 2 -->
+          <div class="why-item">
+            <div class="why-icon-circle">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="1" x2="12" y2="23"></line>
+                <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+              </svg>
+            </div>
+            <div class="why-item-content">
+              <h3 class="why-item-title">No account needed</h3>
+              <p class="why-item-desc">Open the planner and begin in a single click. Nothing to sign up for.</p>
+            </div>
+          </div>
+
+          <!-- Item 3 -->
+          <div class="why-item">
+            <div class="why-icon-circle">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+              </svg>
+            </div>
+            <div class="why-item-content">
+              <h3 class="why-item-title">Private by design</h3>
+              <p class="why-item-desc">Your plan is saved on your own device — not on our servers.</p>
+            </div>
+          </div>
+
+          <!-- Item 4 -->
+          <div class="why-item">
+            <div class="why-icon-circle">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+            </div>
+            <div class="why-item-content">
+              <h3 class="why-item-title">Export to PDF</h3>
+              <p class="why-item-desc">Share a beautifully composed plan with your partner, family or vendors.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- The Planner Intake Section: Mutually Exclusive Modes -->
+    <section id="intakeSection" class="intake-section">
+      <div class="intake-card">
+        <div class="intake-card-header">
+          <span class="eyebrow-tag">— BEGIN PLANNING —</span>
+          <h2 class="intake-card-title">Compose your celebration.</h2>
+          <p class="intake-card-sub">Choose your preferred way to plan: adjust exact sliders, or describe your vision in words.</p>
+        </div>
+
+        <form id="planForm" class="intake-form">
+
+          <!-- STRICT MUTUALLY EXCLUSIVE TABS -->
+          <div class="intake-mode-tabs" role="tablist">
+            <button type="button" id="modePromptBtn" class="mode-tab-btn active" role="tab" aria-selected="true">
+              <span>✍️ Natural Language Vision</span>
+            </button>
+            <button type="button" id="modeParamsBtn" class="mode-tab-btn" role="tab" aria-selected="false">
+              <span>🎛️ Exact Parameters & Sliders (No Typing Required)</span>
+            </button>
+          </div>
+
+          <!-- MODE 1: NATURAL LANGUAGE VISION (SHOWN ONLY WHEN MODE 1 IS ACTIVE) -->
+          <div id="promptModeSection" class="intake-mode-section">
+            <div class="prompt-input-wrapper">
+              <span class="prompt-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                </svg>
+              </span>
+              <input 
+                type="text" 
+                id="naturalPromptInput" 
+                class="prompt-input" 
+                placeholder="e.g. Dad's 60th birthday for 45 guests in Dadar with ₹1.5L budget, good food & retro music" 
+                autocomplete="off"
+              />
+              <button type="submit" id="generatePlanBtn" class="btn btn-gold btn-generate">
+                <span class="btn-text">Generate AI Plan</span>
+                <svg class="btn-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </button>
+            </div>
+
+            <!-- Personalized Idea Prompt Hint -->
+            <div class="prompt-custom-hint-bar">
+              <span class="hint-icon">💡</span>
+              <span class="hint-text">Have a personalized idea? Describe it freely above — e.g. <em>"Strict Jain buffet"</em>, <em>"90s Bollywood DJ"</em>, or <em>"DIY craft zone"</em>.</span>
+            </div>
+
+            <!-- 1-Click Instant Preset Pills -->
+            <div class="presets-container">
+              <span class="presets-label">⚡ 10-Second Presets:</span>
+              <div class="preset-pills">
+                <button type="button" class="preset-pill" data-preset="wedding">
+                  <span class="pill-emoji">💍</span>
+                  <span class="pill-text">Grand Wedding (150 guests, Juhu, ₹12L)</span>
+                </button>
+                <button type="button" class="preset-pill" data-preset="birthday">
+                  <span class="pill-emoji">🎂</span>
+                  <span class="pill-text">Superhero 6th Birthday (35 kids, Powai, ₹45K)</span>
+                </button>
+                <button type="button" class="preset-pill" data-preset="community">
+                  <span class="pill-emoji">🎪</span>
+                  <span class="pill-text">Diwali Society Utsav (200 residents, Thane, ₹1L)</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- MODE 2: EXACT PARAMETERS & SLIDERS (SHOWN ONLY WHEN MODE 2 IS ACTIVE) -->
+          <div id="paramsModeSection" class="intake-mode-section" style="display: none;">
+            <div class="guided-drawer">
+              <div class="guided-header-row">
+                <span class="guided-badge">⚡ Direct Parameters (Direct input into GenAI reasoning)</span>
+                <span id="liveDirectiveBadge" class="live-directive-badge">🎂 Birthday • Bandra West • 50 Guests • ₹1,00,000</span>
+              </div>
+
+              <div class="grid-form">
+                <!-- Event Type -->
+                <div class="form-group">
+                  <label for="eventTypeSelect">Event Type</label>
+                  <select id="eventTypeSelect" class="form-select">
+                    <option value="birthday">🎂 Birthday Celebration</option>
+                    <option value="wedding">💍 Wedding / Sangeet / Reception</option>
+                    <option value="community">🎪 Community Festival / Society Gala</option>
+                  </select>
+                </div>
+
+                <!-- Locality -->
+                <div class="form-group">
+                  <label for="localityInput">Mumbai Locality</label>
+                  <input type="text" id="localityInput" class="form-input" placeholder="e.g. Bandra, Dadar, Powai, Thane" value="Bandra West">
+                  <div class="quick-locality-chips">
+                    <button type="button" class="loc-chip active" data-loc="Bandra West">Bandra</button>
+                    <button type="button" class="loc-chip" data-loc="Juhu">Juhu</button>
+                    <button type="button" class="loc-chip" data-loc="Powai">Powai</button>
+                    <button type="button" class="loc-chip" data-loc="Dadar">Dadar</button>
+                    <button type="button" class="loc-chip" data-loc="Thane West">Thane</button>
+                    <button type="button" class="loc-chip" data-loc="Colaba">Colaba</button>
+                  </div>
+                </div>
+
+                <!-- Guests Slider -->
+                <div class="form-group">
+                  <div class="slider-label-row">
+                    <label for="guestsInput">Guest Headcount</label>
+                    <span id="guestsDisplay" class="value-highlight">50 Guests</span>
+                  </div>
+                  <input type="range" id="guestsInput" min="10" max="500" step="5" value="50" class="form-range">
+                  <div class="range-limits"><span>10 guests</span><span>500 guests</span></div>
+                </div>
+
+                <!-- Budget Slider -->
+                <div class="form-group">
+                  <div class="slider-label-row">
+                    <label for="budgetInput">Total Budget (INR)</label>
+                    <span id="budgetDisplay" class="value-highlight">₹1,00,000</span>
+                  </div>
+                  <input type="range" id="budgetInput" min="20000" max="3000000" step="10000" value="100000" class="form-range">
+                  <div class="range-limits"><span>₹20,000</span><span>₹30,00,000</span></div>
+                </div>
+              </div>
+
+              <!-- Priority Architecture: 3-Level Priority System -->
+              <div class="priority-architecture-section" id="priorityArchitectureSection">
+                <div class="priority-header-row">
+                  <div>
+                    <label class="pref-label">Priority Features & Trade-off Controls</label>
+                    <p class="priority-subtext">Click any category or feature to select it. Then toggle between <strong>🔒 Must-have</strong>, <strong>⭐ Important</strong>, or <strong>💸 Flexible</strong> to guide how the AI allocates your budget.</p>
+                  </div>
+                  <!-- Live Summary Pill -->
+                  <div class="priority-summary-pill" id="prioritySummaryPill">
+                    <span class="pill-dot"></span>
+                    <span class="pill-text" id="prioritySummaryText">⭐ All balanced at Important level (Default)</span>
+                  </div>
+                </div>
+
+                <!-- Soft-Cap Alert (hidden by default) -->
+                <div id="mustHaveCapNotice" class="must-have-cap-notice" style="display: none;">
+                  <span class="notice-icon">⚠️</span>
+                  <span class="notice-text">Too many must-haves make it hard to balance your budget. We suggest keeping at most 3 non-negotiables so the AI has room to optimize.</span>
+                </div>
+
+                <!-- Legend of 3 levels -->
+                <div class="priority-legend">
+                  <div class="legend-item"><span class="legend-badge badge-lock">🔒 Non-negotiable</span> <span class="legend-desc">Top-notch quality, protected first</span></div>
+                  <div class="legend-item"><span class="legend-badge badge-star">⭐ Important</span> <span class="legend-desc">Good quality, balanced share</span></div>
+                  <div class="legend-item"><span class="legend-badge badge-flex">💸 Flexible</span> <span class="legend-desc">Basic/DIY, trimmed first when tight</span></div>
+                </div>
+
+                <!-- Core Budget Categories -->
+                <div class="priority-group-block">
+                  <span class="priority-group-title">Core Budget Categories:</span>
+                  <div class="priority-chips-grid" id="coreCategoriesGrid">
+                    <div class="priority-chip-card" data-key="Venue">
+                      <button type="button" class="chip-toggle-btn" data-key="Venue">
+                        <span class="chip-icon">🏛️</span>
+                        <span class="chip-name">Venue & Banquet</span>
+                        <span class="chip-status-tag">Add</span>
+                      </button>
+                      <div class="priority-segmented-control" style="display: none;">
+                        <button type="button" class="seg-btn" data-level="nonNegotiable">🔒 Must-have</button>
+                        <button type="button" class="seg-btn active" data-level="important">⭐ Important</button>
+                        <button type="button" class="seg-btn" data-level="flexible">💸 Flexible</button>
+                      </div>
+                    </div>
+
+                    <div class="priority-chip-card" data-key="Catering">
+                      <button type="button" class="chip-toggle-btn" data-key="Catering">
+                        <span class="chip-icon">🍽️</span>
+                        <span class="chip-name">Gourmet Catering</span>
+                        <span class="chip-status-tag">Add</span>
+                      </button>
+                      <div class="priority-segmented-control" style="display: none;">
+                        <button type="button" class="seg-btn" data-level="nonNegotiable">🔒 Must-have</button>
+                        <button type="button" class="seg-btn active" data-level="important">⭐ Important</button>
+                        <button type="button" class="seg-btn" data-level="flexible">💸 Flexible</button>
+                      </div>
+                    </div>
+
+                    <div class="priority-chip-card" data-key="Decor">
+                      <button type="button" class="chip-toggle-btn" data-key="Decor">
+                        <span class="chip-icon">🎨</span>
+                        <span class="chip-name">Decor & Styling</span>
+                        <span class="chip-status-tag">Add</span>
+                      </button>
+                      <div class="priority-segmented-control" style="display: none;">
+                        <button type="button" class="seg-btn" data-level="nonNegotiable">🔒 Must-have</button>
+                        <button type="button" class="seg-btn active" data-level="important">⭐ Important</button>
+                        <button type="button" class="seg-btn" data-level="flexible">💸 Flexible</button>
+                      </div>
+                    </div>
+
+                    <div class="priority-chip-card" data-key="Entertainment">
+                      <button type="button" class="chip-toggle-btn" data-key="Entertainment">
+                        <span class="chip-icon">🎵</span>
+                        <span class="chip-name">Entertainment & DJ</span>
+                        <span class="chip-status-tag">Add</span>
+                      </button>
+                      <div class="priority-segmented-control" style="display: none;">
+                        <button type="button" class="seg-btn" data-level="nonNegotiable">🔒 Must-have</button>
+                        <button type="button" class="seg-btn active" data-level="important">⭐ Important</button>
+                        <button type="button" class="seg-btn" data-level="flexible">💸 Flexible</button>
+                      </div>
+                    </div>
+
+                    <div class="priority-chip-card" data-key="Photography">
+                      <button type="button" class="chip-toggle-btn" data-key="Photography">
+                        <span class="chip-icon">📸</span>
+                        <span class="chip-name">Photography & Film</span>
+                        <span class="chip-status-tag">Add</span>
+                      </button>
+                      <div class="priority-segmented-control" style="display: none;">
+                        <button type="button" class="seg-btn" data-level="nonNegotiable">🔒 Must-have</button>
+                        <button type="button" class="seg-btn active" data-level="important">⭐ Important</button>
+                        <button type="button" class="seg-btn" data-level="flexible">💸 Flexible</button>
+                      </div>
+                    </div>
+
+                    <div class="priority-chip-card" data-key="Cake">
+                      <button type="button" class="chip-toggle-btn" data-key="Cake">
+                        <span class="chip-icon">🍰</span>
+                        <span class="chip-name">Artisan Cake</span>
+                        <span class="chip-status-tag">Add</span>
+                      </button>
+                      <div class="priority-segmented-control" style="display: none;">
+                        <button type="button" class="seg-btn" data-level="nonNegotiable">🔒 Must-have</button>
+                        <button type="button" class="seg-btn active" data-level="important">⭐ Important</button>
+                        <button type="button" class="seg-btn" data-level="flexible">💸 Flexible</button>
+                      </div>
+                    </div>
+
+                    <div class="priority-chip-card" data-key="Return Gifts">
+                      <button type="button" class="chip-toggle-btn" data-key="Return Gifts">
+                        <span class="chip-icon">🎁</span>
+                        <span class="chip-name">Return Gifts & Favors</span>
+                        <span class="chip-status-tag">Add</span>
+                      </button>
+                      <div class="priority-segmented-control" style="display: none;">
+                        <button type="button" class="seg-btn" data-level="nonNegotiable">🔒 Must-have</button>
+                        <button type="button" class="seg-btn active" data-level="important">⭐ Important</button>
+                        <button type="button" class="seg-btn" data-level="flexible">💸 Flexible</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Priority Feature Touches -->
+                <div class="priority-group-block">
+                  <span class="priority-group-title">Feature Touches & Preferences:</span>
+                  <div class="priority-chips-grid" id="featureTouchesGrid">
+                    <div class="priority-chip-card" data-key="Pure Veg / Jain">
+                      <button type="button" class="chip-toggle-btn" data-key="Pure Veg / Jain">
+                        <span class="chip-icon">🌿</span>
+                        <span class="chip-name">Pure Veg / Jain</span>
+                        <span class="chip-status-tag">Add</span>
+                      </button>
+                      <div class="priority-segmented-control" style="display: none;">
+                        <button type="button" class="seg-btn" data-level="nonNegotiable">🔒 Must-have</button>
+                        <button type="button" class="seg-btn active" data-level="important">⭐ Important</button>
+                        <button type="button" class="seg-btn" data-level="flexible">💸 Flexible</button>
+                      </div>
+                    </div>
+
+                    <div class="priority-chip-card" data-key="Live DJ & Music">
+                      <button type="button" class="chip-toggle-btn" data-key="Live DJ & Music">
+                        <span class="chip-icon">🎵</span>
+                        <span class="chip-name">Live DJ & Music</span>
+                        <span class="chip-status-tag">Add</span>
+                      </button>
+                      <div class="priority-segmented-control" style="display: none;">
+                        <button type="button" class="seg-btn" data-level="nonNegotiable">🔒 Must-have</button>
+                        <button type="button" class="seg-btn active" data-level="important">⭐ Important</button>
+                        <button type="button" class="seg-btn" data-level="flexible">💸 Flexible</button>
+                      </div>
+                    </div>
+
+                    <div class="priority-chip-card" data-key="Candid Photography">
+                      <button type="button" class="chip-toggle-btn" data-key="Candid Photography">
+                        <span class="chip-icon">📸</span>
+                        <span class="chip-name">Candid Photography</span>
+                        <span class="chip-status-tag">Add</span>
+                      </button>
+                      <div class="priority-segmented-control" style="display: none;">
+                        <button type="button" class="seg-btn" data-level="nonNegotiable">🔒 Must-have</button>
+                        <button type="button" class="seg-btn active" data-level="important">⭐ Important</button>
+                        <button type="button" class="seg-btn" data-level="flexible">💸 Flexible</button>
+                      </div>
+                    </div>
+
+                    <div class="priority-chip-card" data-key="Themed Decor">
+                      <button type="button" class="chip-toggle-btn" data-key="Themed Decor">
+                        <span class="chip-icon">🎨</span>
+                        <span class="chip-name">Themed Decor</span>
+                        <span class="chip-status-tag">Add</span>
+                      </button>
+                      <div class="priority-segmented-control" style="display: none;">
+                        <button type="button" class="seg-btn" data-level="nonNegotiable">🔒 Must-have</button>
+                        <button type="button" class="seg-btn active" data-level="important">⭐ Important</button>
+                        <button type="button" class="seg-btn" data-level="flexible">💸 Flexible</button>
+                      </div>
+                    </div>
+
+                    <div class="priority-chip-card" data-key="Games & Emcee">
+                      <button type="button" class="chip-toggle-btn" data-key="Games & Emcee">
+                        <span class="chip-icon">🎪</span>
+                        <span class="chip-name">Games & Emcee</span>
+                        <span class="chip-status-tag">Add</span>
+                      </button>
+                      <div class="priority-segmented-control" style="display: none;">
+                        <button type="button" class="seg-btn" data-level="nonNegotiable">🔒 Must-have</button>
+                        <button type="button" class="seg-btn active" data-level="important">⭐ Important</button>
+                        <button type="button" class="seg-btn" data-level="flexible">💸 Flexible</button>
+                      </div>
+                    </div>
+
+                    <div class="priority-chip-card" data-key="Custom Cake">
+                      <button type="button" class="chip-toggle-btn" data-key="Custom Cake">
+                        <span class="chip-icon">🍰</span>
+                        <span class="chip-name">Custom Cake</span>
+                        <span class="chip-status-tag">Add</span>
+                      </button>
+                      <div class="priority-segmented-control" style="display: none;">
+                        <button type="button" class="seg-btn" data-level="nonNegotiable">🔒 Must-have</button>
+                        <button type="button" class="seg-btn active" data-level="important">⭐ Important</button>
+                        <button type="button" class="seg-btn" data-level="flexible">💸 Flexible</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Do you have any personalized ideas or special touches in mind to implement? -->
+              <div class="form-group personalized-ideas-group">
+                <label for="customIdeasInput" class="custom-ideas-label">
+                  <span class="ideas-label-title">💡 Do you have any personalized ideas or special touches in mind to implement?</span>
+                  <span class="optional-tag">Optional</span>
+                </label>
+                <div class="custom-ideas-input-wrapper">
+                  <input 
+                    type="text" 
+                    id="customIdeasInput" 
+                    class="form-input custom-ideas-input" 
+                    placeholder="e.g. Strict Jain live counter, retro 90s Bollywood vinyl DJ, flashmob sangeet, DIY slime lab for kids..." 
+                    autocomplete="off"
+                  />
+                </div>
+                <div class="quick-idea-chips">
+                  <span class="idea-chips-hint">Popular touches:</span>
+                  <button type="button" class="idea-chip" data-idea="Strict Jain & Swaminarayan live counter">🌿 Jain Counter</button>
+                  <button type="button" class="idea-chip" data-idea="Retro 90s Bollywood vinyl DJ & live dhol">🎵 90s Bollywood DJ</button>
+                  <button type="button" class="idea-chip" data-idea="Interactive DIY crafting station for kids">🎨 DIY Kids Station</button>
+                  <button type="button" class="idea-chip" data-idea="Eco-friendly zero-plastic marigold floral decor">🌻 Eco Marigold Decor</button>
+                </div>
+              </div>
+
+              <!-- Direct Submit Button from Parameters -->
+              <div class="guided-submit-row">
+                <button type="button" id="btnGenerateFromParams" class="btn btn-gold btn-generate-direct">
+                  <span>⚡ Generate AI Plan with Selected Parameters</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </form>
+      </div>
+    </section>
+
+    <!-- Real-Time AI Generation Pipeline Stage -->
+    <section id="aiLoadingStage" class="loading-stage" style="display: none;">
+      <div class="loading-container">
+        <div class="loading-spinner-wrapper">
+          <div class="loading-ring"></div>
+          <div class="loading-icon-center">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+            </svg>
+          </div>
+        </div>
+        <h3 id="loadingStepTitle" class="loading-step-title">Initializing Event Architect...</h3>
+        <p id="loadingStepDesc" class="loading-step-desc">Deconstructing event parameters and guest scaling...</p>
+
+        <div class="pipeline-progress-list">
+          <div class="pipeline-step active" id="pipeStep1">
+            <span class="step-icon">🧠</span>
+            <span class="step-text">Context & Constraint Extraction</span>
+          </div>
+          <div class="pipeline-step" id="pipeStep2">
+            <span class="step-icon">💰</span>
+            <span class="step-text">Dynamic Budgeting & Tradeoff Reasoning</span>
+          </div>
+          <div class="pipeline-step" id="pipeStep3">
+            <span class="step-icon">⏱️</span>
+            <span class="step-text">Prep Countdown & Hour-by-Hour Run of Show</span>
+          </div>
+          <div class="pipeline-step" id="pipeStep4">
+            <span class="step-icon">📋</span>
+            <span class="step-text">Mumbai Vendor Grounding & WhatsApp RFPs</span>
+          </div>
+          <div class="pipeline-step" id="pipeStep5">
+            <span class="step-icon">💡</span>
+            <span class="step-text">Bespoke Themes, Curated Menu & WhatsApp Invites</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Generated Dynamic Event Dashboard -->
+    <section id="dashboardSection" class="dashboard-section" style="display: none;">
+
+      <!-- Serene Workspace Header (Clean, Editorial, Clutter-Free) -->
+      <div class="workspace-header">
+        <div class="workspace-title-group">
+          <span class="workspace-eyebrow" id="planEventKicker">WEDDING • JUHU, MUMBAI</span>
+          <h2 id="planEventTitle" class="workspace-title">Grand Wedding Reception</h2>
+          <p id="planEventMeta" class="workspace-meta">350 Guests • ₹7,00,000 Budget • Tier-1 Mumbai Grounding</p>
+        </div>
+        <div class="workspace-actions">
+          <button id="btnShareWhatsApp" class="btn btn-outline-gold btn-sm">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 6.46 17.5 2 12.04 2M12.05 3.67C16.58 3.67 20.28 7.37 20.28 11.92C20.28 16.46 16.58 20.17 12.05 20.17C10.57 20.17 9.15 19.78 7.91 19.04L7.54 18.82L4.43 19.64L5.26 16.61L5.02 16.23C4.22 14.95 3.8 13.45 3.8 11.91C3.8 7.37 7.51 3.67 12.05 3.67Z"/>
+            </svg>
+            <span>Share Plan</span>
+          </button>
+          <button id="btnResetPlan" class="btn btn-gold btn-sm">
+            <span>Plan Another Event</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Clean Everplanner-Style Workspace Tabs -->
+      <nav class="quadrant-tabs" role="tablist">
+        <button class="tab-btn active" data-tab="tab-budget" role="tab" aria-selected="true">
+          <span>Budget</span>
+        </button>
+        <button class="tab-btn" data-tab="tab-timeline" role="tab" aria-selected="false">
+          <span>Timeline</span>
+        </button>
+        <button class="tab-btn" data-tab="tab-vendors" role="tab" aria-selected="false">
+          <span>Vendors</span>
+        </button>
+        <button class="tab-btn" data-tab="tab-ideas" data-tab-name="tab-ideas" role="tab" aria-selected="false">
+          <span>Ideas</span>
+        </button>
+      </nav>
+
+      <!-- TAB 1: Budget -->
+      <div id="tab-budget" class="tab-content active" role="tabpanel">
+        <!-- Budget Reality Check Banner -->
+        <div id="budgetRealityCheckBanner" class="budget-reality-banner" style="display: none;"></div>
+
+        <!-- Protected For You Card (Non-negotiables) -->
+        <div id="protectedItemsCard" class="protected-items-card" style="display: none;"></div>
+
+        <!-- Breakdown Table with Priority Badges & Quality Tiers -->
+        <div class="budget-table-card">
+          <div class="budget-table-header">
+            <div>
+              <h3 class="budget-table-title">Budget Allocation & Priority Alignment</h3>
+              <p class="budget-table-subtitle">Strictly honours your 🔒 Must-have, ⭐ Important, and 💸 Flexible selections</p>
+            </div>
+            <div class="budget-total-pill" id="budgetTotalPill">Total: ₹1,00,000</div>
+          </div>
+          <div class="table-responsive">
+            <table class="budget-table" id="budgetBreakdownTable">
+              <thead>
+                <tr>
+                  <th>Category</th>
+                  <th>Priority Level</th>
+                  <th>Quality Tier</th>
+                  <th>Allocated (INR)</th>
+                  <th>% Share</th>
+                  <th>Reasoning & Trade-off Notes</th>
+                </tr>
+              </thead>
+              <tbody id="budgetTableBody">
+                <!-- Dynamically Rendered -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Two Column Layout: Trimmed Trade-offs & Upgrades -->
+        <div class="budget-insights-row">
+          <div id="tradeoffsCard" class="insight-box tradeoffs-card" style="display: none;">
+            <div class="insight-header">
+              <span class="insight-icon">✂️</span>
+              <h4 class="insight-title">What We Trimmed & Why</h4>
+            </div>
+            <div id="tradeoffsList" class="insight-body"></div>
+          </div>
+
+          <div id="upgradesCard" class="insight-box upgrades-card" style="display: none;">
+            <div class="insight-header">
+              <span class="insight-icon">🚀</span>
+              <h4 class="insight-title">Strategic Upgrades (If Budget Permits)</h4>
+            </div>
+            <div id="upgradesList" class="insight-body"></div>
+          </div>
+        </div>
+
+        <!-- Subtle AI Tradeoff Footnote Note -->
+        <div id="tradeoffText" class="budget-footnote-note"></div>
+      </div>
+
+      <!-- TAB 2: Timeline -->
+      <div id="tab-timeline" class="tab-content" role="tabpanel">
+        <div class="timeline-view-header">
+          <div class="timeline-view-toggle">
+            <button id="viewCountdownBtn" class="toggle-pill active">📅 Prep Countdown (Weeks Out)</button>
+            <button id="viewRunOfShowBtn" class="toggle-pill">⏰ Day-of Run of Show (Hourly)</button>
+          </div>
+        </div>
+
+        <!-- Layer 1: Prep Countdown Roadmap -->
+        <div id="layerPrepCountdown" class="timeline-layer active">
+          <div class="prep-phases-container" id="prepPhasesList">
+            <!-- Dynamically Rendered -->
+          </div>
+        </div>
+
+        <!-- Layer 2: Day-of Run of Show (Hourly Schedule) -->
+        <div id="layerRunOfShow" class="timeline-layer" style="display: none;">
+          <div class="run-of-show-container" id="runOfShowList">
+            <!-- Dynamically Rendered -->
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB 3: Vendors -->
+      <div id="tab-vendors" class="tab-content" role="tabpanel">
+        <!-- Featured Section A: Find Your Venue -->
+        <div class="featured-vendor-section" id="featuredVenuesSection">
+          <div class="featured-section-header">
+            <div>
+              <div class="featured-eyebrow">TOP RECOMMENDATION • VERIFIED MUMBAI SPACES</div>
+              <h3 class="featured-section-title">🏛️ Find Your Venue</h3>
+              <p class="featured-section-subtitle" id="venueSectionSubtitle">Curated verified banquet halls and celebration spaces matching your locality and guest count.</p>
+            </div>
+            <a id="venueExternalSearchBtn" href="#" target="_blank" rel="noopener noreferrer" class="btn btn-outline-gold btn-sm" style="display: none;">
+              <span>Search on Google Maps ↗</span>
+            </a>
+          </div>
+          <div class="venue-cards-grid" id="featuredVenuesGrid">
+            <!-- 3 Venue Cards Dynamically Rendered -->
+          </div>
+        </div>
+
+        <!-- Featured Section B: Catering We Recommend -->
+        <div class="featured-vendor-section" id="featuredCateringSection">
+          <div class="featured-section-header">
+            <div>
+              <div class="featured-eyebrow">PAN-MUMBAI CATERING PARTNERS</div>
+              <h3 class="featured-section-title">🍽️ Catering We Recommend</h3>
+              <p class="featured-section-subtitle" id="cateringWhyTheseTwo">
+                We hand-selected these two trusted pan-Mumbai specialists to give you two clear choices: Atmosfire for experiential live grills & interactive dining, and K Bhagat Tarachand for authentic pure-vegetarian & Jain-certified feasts with reliable value.
+              </p>
+            </div>
+          </div>
+          <div class="caterer-cards-grid" id="featuredCateringGrid">
+            <!-- 2 Featured Caterer Cards Dynamically Rendered -->
+          </div>
+          <div class="vendor-disclaimer-note">
+            ℹ️ Details are indicative based on standard Mumbai packages; please confirm specific menu and date availability directly with the vendor.
+          </div>
+        </div>
+
+        <!-- Featured Section C: Help CTA -->
+        <div class="vendor-shortlist-cta" id="vendorShortlistCtaBox">
+          <div class="shortlist-cta-content">
+            <div class="shortlist-cta-icon">🤝</div>
+            <div>
+              <h4 class="shortlist-cta-title">Need help choosing? We'll shortlist for you.</h4>
+              <p class="shortlist-cta-desc">Our Mumbai event concierge can check real-time availability, schedule food tastings, and secure corporate-grade quotes for your selected venue and caterer.</p>
+            </div>
+          </div>
+          <button type="button" id="btnOpenShortlistModal" class="btn btn-gold">
+            <span>Request Shortlist Concierge</span>
+          </button>
+        </div>
+
+        <!-- Existing Vendor Categories (Decor, Photography, Entertainment) -->
+        <div class="vendor-categories-header">
+          <h4 class="vendor-sub-title">Category Checklists & Sourced Specialists</h4>
+          <p class="vendor-sub-desc">Concrete hiring criteria, questions to ask, and 1-click ready-to-send WhatsApp RFPs</p>
+        </div>
+        <div class="vendor-categories-container" id="vendorCategoriesList">
+          <!-- Dynamically Rendered -->
+        </div>
+      </div>
+
+      <!-- TAB 4: Ideas -->
+      <div id="tab-ideas" class="tab-content" role="tabpanel">
+
+        <div class="creative-studio-grid">
+          <!-- Theme & Palette Card -->
+          <div class="creative-card theme-card">
+            <div class="card-header-icon">
+              <span class="icon-circle">🎨</span>
+              <div>
+                <h4 class="card-title" id="themeTitle">Theme Title</h4>
+                <p class="card-subtitle" id="themeVisualVibe">Aesthetic Vibe</p>
+              </div>
+            </div>
+            <p id="themeDescription" class="theme-description">Loading bespoke theme details...</p>
+            <div class="color-palette-wrapper">
+              <span class="palette-label">Color Palette (Click to copy hex):</span>
+              <div class="palette-swatches" id="paletteSwatchesList">
+                <!-- Color Chips -->
+              </div>
+            </div>
+          </div>
+
+          <!-- 1-Click WhatsApp Invite Card -->
+          <div class="creative-card invite-card">
+            <div class="card-header-icon">
+              <span class="icon-circle">💬</span>
+              <div>
+                <h4 class="card-title">1-Click WhatsApp Invitation</h4>
+                <p class="card-subtitle">Ready-to-broadcast invite copy</p>
+              </div>
+            </div>
+            <div class="invite-preview-box">
+              <pre id="inviteCopyText" class="invite-pre">Loading invitation copy...</pre>
+            </div>
+            <div class="invite-actions">
+              <button id="btnCopyInvite" class="btn btn-gold btn-sm">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+                <span>Copy Invite Text</span>
+              </button>
+              <button id="btnOpenWhatsApp" class="btn btn-secondary btn-sm">
+                <span>Send via WhatsApp</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Bespoke Activity Concepts -->
+          <div class="creative-card activities-card">
+            <div class="card-header-icon">
+              <span class="icon-circle">🎪</span>
+              <div>
+                <h4 class="card-title">Bespoke Activities & Entertainment</h4>
+                <p class="card-subtitle">Age and event tailored interactive concepts</p>
+              </div>
+            </div>
+            <div class="activities-list" id="activitiesList">
+              <!-- Dynamically Rendered -->
+            </div>
+          </div>
+
+          <!-- Curated Catering Menu -->
+          <div class="creative-card menu-card">
+            <div class="card-header-icon">
+              <span class="icon-circle">🍽️</span>
+              <div>
+                <h4 class="card-title">Curated Signature Menu</h4>
+                <p class="card-subtitle">Crowd-pleasing food & beverage curation</p>
+              </div>
+            </div>
+            <div class="menu-sections" id="menuSectionsList">
+              <!-- Dynamically Rendered -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <div class="footer-container">
+        <p class="footer-copy">Plan My Mumbai © 2026 • AI-Native Event Architecture</p>
+        <div class="footer-tools">
+          <button id="apiKeyBtn" class="footer-key-btn" title="Configure Gemini API Key">🔑 Gemini Engine Config</button>
+          <div id="aiEngineBadge" style="display:none;"><span id="aiEngineLabel"></span></div>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- API Key Modal -->
+  <div id="apiKeyModal" class="modal-overlay" style="display: none;">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <div class="modal-icon">🔑</div>
+          <h3>Google Gemini API Configuration</h3>
+        </div>
+        <button id="closeApiKeyModalBtn" class="btn-close" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-desc">
+          Enter your Google Gemini API Key to enable live neural synthesis with <strong>Gemini 2.5 Flash / 1.5 Flash</strong>.
+        </p>
+        <div class="form-group">
+          <label for="geminiApiKeyInput">Gemini API Key</label>
+          <input 
+            type="password" 
+            id="geminiApiKeyInput" 
+            class="form-input" 
+            placeholder="AIzaSy..." 
+            autocomplete="off"
+          />
+          <small class="form-help">Your key stays secure in your browser/server runtime and is never logged or shared.</small>
+        </div>
+        <div id="apiKeyStatusAlert" class="alert" style="display: none;"></div>
+      </div>
+      <div class="modal-footer">
+        <button id="clearApiKeyBtn" class="btn btn-secondary btn-sm">Clear Key</button>
+        <button id="saveApiKeyBtn" class="btn btn-gold btn-sm">Save & Connect</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lead Capture Shortlist Modal -->
+  <div id="shortlistModal" class="modal-overlay" style="display: none;">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <div class="modal-icon">🤝</div>
+          <h3>Shortlist Concierge Assistance</h3>
+        </div>
+        <button id="closeShortlistModalBtn" class="btn-close" aria-label="Close modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p class="modal-desc">
+          We will contact your shortlisted venue and caterer on your behalf, verify real-time calendar availability, and arrange direct phone/WhatsApp introductions.
+        </p>
+        <form id="shortlistForm">
+          <div class="form-row-2">
+            <div class="form-group">
+              <label for="shortlistEventType">Event Type</label>
+              <input type="text" id="shortlistEventType" class="form-input" readonly>
+            </div>
+            <div class="form-group">
+              <label for="shortlistLocality">Locality</label>
+              <input type="text" id="shortlistLocality" class="form-input" readonly>
+            </div>
+          </div>
+          <div class="form-row-2">
+            <div class="form-group">
+              <label for="shortlistGuests">Guest Count</label>
+              <input type="text" id="shortlistGuests" class="form-input" readonly>
+            </div>
+            <div class="form-group">
+              <label for="shortlistBudget">Total Budget</label>
+              <input type="text" id="shortlistBudget" class="form-input" readonly>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="shortlistVenue">Selected Venue</label>
+            <input type="text" id="shortlistVenue" class="form-input" placeholder="e.g. JW Marriott Juhu / Bandra Gymkhana">
+          </div>
+          <div class="form-group">
+            <label for="shortlistCaterer">Selected Caterer</label>
+            <input type="text" id="shortlistCaterer" class="form-input" placeholder="e.g. K Bhagat Tarachand / Atmosfire">
+          </div>
+          <div class="form-group">
+            <label for="shortlistContact">Your Name & WhatsApp Number</label>
+            <input type="text" id="shortlistContact" class="form-input" placeholder="e.g. Host Name (+91 98200 XXXXX)" required>
+          </div>
+          <div class="modal-footer">
+            <button type="button" id="cancelShortlistBtn" class="btn btn-secondary btn-sm">Cancel</button>
+            <button type="submit" class="btn btn-gold btn-sm">Submit Concierge Request</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div id="toastNotification" class="toast" style="display: none;">
+    <span id="toastMessage">Action completed</span>
+  </div>
+
+  <script src="app.js?v=7" type="module"></script>
+</body>
+</html>

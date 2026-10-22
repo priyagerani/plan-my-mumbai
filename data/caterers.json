@@ -1,0 +1,38 @@
+[
+  {
+    "id": "caterer-atmosfire",
+    "name": "Atmosfire by Barbeque Nation",
+    "cuisineStyle": "Live Interactive Grills, Barbeque & Multi-Cuisine Gourmet Buffet",
+    "vegJainFriendly": false,
+    "jainAvailability": "Confirm with caterer",
+    "pureVegOnly": false,
+    "minGuests": 30,
+    "approxPerPlateMin": 850,
+    "approxPerPlateMax": 1500,
+    "servesAllMumbai": true,
+    "suitableEvents": ["wedding", "birthday", "community"],
+    "whyFeatured": "Premium live outdoor grill stations and interactive dining experience from the house of Barbeque Nation.",
+    "phone": "+91 80 6902 8700",
+    "website": "https://atmosfire.in",
+    "verified": true,
+    "notes": "Custom live skewers, tandoor and international dessert bars on-site."
+  },
+  {
+    "id": "caterer-bhagat-tarachand",
+    "name": "K Bhagat Tarachand Catering",
+    "cuisineStyle": "Authentic North Indian, Rajasthani, Gujarati & Maharashtrian Pure Veg Feasts",
+    "vegJainFriendly": true,
+    "jainAvailability": "Certified 100% Strict Jain & Swaminarayan Counters",
+    "pureVegOnly": true,
+    "minGuests": 30,
+    "approxPerPlateMin": 450,
+    "approxPerPlateMax": 850,
+    "servesAllMumbai": true,
+    "suitableEvents": ["wedding", "birthday", "community"],
+    "whyFeatured": "Iconic Mumbai pure-vegetarian heritage brand known for legendary Kutchi beer (buttermilk), soft phulkas, and trusted value.",
+    "phone": "+91 22 2344 7979",
+    "website": "https://kbhagattarachand.com",
+    "verified": true,
+    "notes": "Separate Jain prep line, copper chafs, and experienced multi-generational banquet catering teams."
+  }
+]

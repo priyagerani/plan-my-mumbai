@@ -1,0 +1,361 @@
+{
+  "metadata": {
+    "currency": "INR",
+    "location": "Mumbai & Suburbs",
+    "disclaimer": "All pricing figures are realistic Mumbai market estimates compiled from verified local vendor offerings. These are not formal vendor quotes. Actual quotes may vary based on exact venue, dates, menu selections, and guest counts."
+  },
+  "events": {
+    "birthday_kids": {
+      "name": "Birthday > Kids' Party",
+      "items": [
+        {
+          "id": "venue",
+          "name": "Venue Rental",
+          "category": "core",
+          "type": "selectable_tier",
+          "defaultSelected": true,
+          "tiers": {
+            "home": {
+              "label": "At Home or Society Clubhouse",
+              "pricingType": "flat",
+              "min": 4000,
+              "max": 8000,
+              "recommended": 6000,
+              "notes": "Society maintenance, lift electricity & post-party deep cleanup variable cost.",
+              "reducedSpec": "Hosting at flat or building clubhouse with basic society maintenance deposit."
+            },
+            "community_hall": {
+              "label": "Society / Community Hall",
+              "pricingType": "flat",
+              "min": 5000,
+              "max": 15000,
+              "recommended": 9000,
+              "notes": "Rental for society clubhouse or municipal/sports complex hall in Mumbai suburbs.",
+              "reducedSpec": "Off-peak daytime slot or building society club room."
+            },
+            "play_centre": {
+              "label": "Play Centre / Activity Venue (Funky Monkeys, Smaaash, etc.)",
+              "pricingType": "per_guest",
+              "min": 800,
+              "max": 1500,
+              "recommended": 1100,
+              "notes": "Per-child package including 2 hours soft play access, arcade credits, and party room host.",
+              "reducedSpec": "Non-weekend afternoon slot or reduced gaming credits."
+            }
+          },
+          "defaultTier": "community_hall"
+        },
+        {
+          "id": "invitations",
+          "name": "Invitations",
+          "category": "core",
+          "type": "selectable_tier",
+          "defaultSelected": true,
+          "tiers": {
+            "digital": {
+              "label": "Digital / WhatsApp Video Invite",
+              "pricingType": "flat",
+              "min": 500,
+              "max": 1800,
+              "recommended": 1000,
+              "notes": "Custom animated Canva or graphic design invite distributed via WhatsApp.",
+              "reducedSpec": "Pre-made digital template invite."
+            },
+            "printed": {
+              "label": "Custom Printed Themed Cards",
+              "pricingType": "per_guest",
+              "min": 45,
+              "max": 120,
+              "recommended": 75,
+              "notes": "Printed on 350gsm art card with thematic envelope and sticker seals.",
+              "reducedSpec": "Single-sided 250gsm card without custom embellishments."
+            }
+          },
+          "defaultTier": "digital"
+        },
+        {
+          "id": "catering",
+          "name": "Food & Catering Services",
+          "category": "core",
+          "type": "per_guest",
+          "defaultSelected": true,
+          "pricingType": "per_guest",
+          "min": 550,
+          "max": 1100,
+          "recommended": 750,
+          "notes": "Kids party menu (e.g. mini burgers, pasta station, pav bhaji/pizza, fries, beverage, cupcakes) with professional service staff.",
+          "reducedSpec": "Smaller 3-item snack menu instead of multi-course buffet, self-service layout.",
+          "vendorRef": "catering"
+        },
+        {
+          "id": "decorations",
+          "name": "Decorations & Setup",
+          "category": "core",
+          "type": "flat",
+          "defaultSelected": true,
+          "pricingType": "flat",
+          "min": 4500,
+          "max": 18000,
+          "recommended": 9500,
+          "notes": "Balloon arch, themed photo backdrop, marquee number lights, and cake table decoration.",
+          "reducedSpec": "Basic balloon bunch arrangement without personalized wooden cutouts or LED signage.",
+          "vendorRef": "decorations"
+        },
+        {
+          "id": "returnGifts",
+          "name": "Return Gifts & Favors",
+          "category": "core",
+          "type": "per_guest",
+          "defaultSelected": true,
+          "pricingType": "per_guest",
+          "min": 150,
+          "max": 450,
+          "recommended": 275,
+          "notes": "Curated return gift box (e.g., educational puzzle, stationery hamper, personalized drinkware).",
+          "reducedSpec": "Standard stationery pouch / coloring book sourced from Crawford Market wholesale.",
+          "vendorRef": "returnGifts"
+        },
+        {
+          "id": "theme",
+          "name": "Custom Theme Props & Styling",
+          "category": "core",
+          "type": "flat",
+          "defaultSelected": false,
+          "pricingType": "flat",
+          "min": 2500,
+          "max": 7000,
+          "recommended": 4000,
+          "notes": "Themed paper goods, character photo props, custom birthday banner, and coordinated welcome signage.",
+          "reducedSpec": "Standard color-palette styling instead of licensed character merchandise."
+        },
+        {
+          "id": "activity_tattoo",
+          "name": "Activity Corner: Tattoo & Face Painting",
+          "category": "activity",
+          "type": "flat",
+          "defaultSelected": false,
+          "pricingType": "flat",
+          "min": 2800,
+          "max": 4500,
+          "recommended": 3500,
+          "notes": "3 hours with certified artist using skin-safe, non-toxic FDA approved colors & glitter.",
+          "reducedSpec": "2 hours coverage or tattoo stencils only.",
+          "vendorRef": "activities"
+        },
+        {
+          "id": "activity_games",
+          "name": "Activity Corner: Carnival Games Stall",
+          "category": "activity",
+          "type": "flat",
+          "defaultSelected": false,
+          "pricingType": "flat",
+          "min": 4000,
+          "max": 7500,
+          "recommended": 5500,
+          "notes": "Ring toss, mini bowling, bean bag toss, and Jenga with game coordinator and small participant prizes.",
+          "reducedSpec": "2 tabletop games managed by venue attendant without custom prize bucket.",
+          "vendorRef": "activities"
+        },
+        {
+          "id": "activity_pastry",
+          "name": "Activity Corner: Build-Your-Own Pastry Station",
+          "category": "activity",
+          "type": "flat",
+          "defaultSelected": false,
+          "pricingType": "flat",
+          "min": 3500,
+          "max": 6500,
+          "recommended": 4800,
+          "notes": "Cupcake/cookie decorating counter with disposable aprons, piping bags, colorful sprinkles, and dedicated helper.",
+          "reducedSpec": "Pre-baked plain cookies with two frosting colors and sprinkles.",
+          "vendorRef": "catering"
+        },
+        {
+          "id": "activity_craft",
+          "name": "Activity Corner: Craft & Clay Station",
+          "category": "activity",
+          "type": "flat",
+          "defaultSelected": false,
+          "pricingType": "flat",
+          "min": 3000,
+          "max": 5500,
+          "recommended": 4000,
+          "notes": "Bracelet making, air-dry clay sculpting, and canvas painting with take-home craft bags.",
+          "reducedSpec": "Paper origami and card making station with basic supplies."
+        },
+        {
+          "id": "activity_photobooth",
+          "name": "Activity Corner: Instant Photo Booth with Props",
+          "category": "activity",
+          "type": "flat",
+          "defaultSelected": false,
+          "pricingType": "flat",
+          "min": 5000,
+          "max": 9500,
+          "recommended": 6800,
+          "notes": "Themed photo frame, funny props, instant mini-print or Polaroid print takeaway for guests.",
+          "reducedSpec": "Selfie backdrop with hand props (guests use own phones).",
+          "vendorRef": "photographers"
+        },
+        {
+          "id": "activity_slime",
+          "name": "Activity Corner: Slime & Sand Art Lab",
+          "category": "activity",
+          "type": "flat",
+          "defaultSelected": false,
+          "pricingType": "flat",
+          "min": 3500,
+          "max": 6000,
+          "recommended": 4500,
+          "notes": "Sensory lab with glitter slime making and layered colored sand bottles with take-home containers.",
+          "reducedSpec": "Single slime batch per child.",
+          "vendorRef": "activities"
+        },
+        {
+          "id": "activity_ministalls",
+          "name": "Activity Corner: Live Popcorn & Candy Floss Stalls",
+          "category": "activity",
+          "type": "flat",
+          "defaultSelected": false,
+          "pricingType": "flat",
+          "min": 3000,
+          "max": 5000,
+          "recommended": 3800,
+          "notes": "Live cart serving hot salted popcorn and pink spun candy floss for 2-3 hours.",
+          "reducedSpec": "Single machine stall (Popcorn only).",
+          "vendorRef": "activities"
+        },
+        {
+          "id": "activity_hunt",
+          "name": "Activity Corner: Treasure / Scavenger Hunt",
+          "category": "activity",
+          "type": "flat",
+          "defaultSelected": false,
+          "pricingType": "flat",
+          "min": 1800,
+          "max": 3500,
+          "recommended": 2500,
+          "notes": "Clue scrolls, riddle maps, hidden tokens, and final treasure chest with medals/chocolates.",
+          "reducedSpec": "DIY printed clue cards managed by host."
+        },
+        {
+          "id": "photography",
+          "name": "Professional Candid Photography",
+          "category": "optional_extra",
+          "type": "flat",
+          "defaultSelected": false,
+          "pricingType": "flat",
+          "min": 6000,
+          "max": 13000,
+          "recommended": 8500,
+          "notes": "3 hours of dedicated candid event coverage, cake cutting highlights, and 50+ color-corrected high-res photos.",
+          "reducedSpec": "1.5 hours coverage focusing on cake cutting and family group portraits.",
+          "vendorRef": "photographers"
+        }
+      ]
+    },
+    "default_template": {
+      "name": "Standard Mumbai Celebration Event",
+      "items": [
+        {
+          "id": "venue",
+          "name": "Venue & Space Booking",
+          "category": "core",
+          "type": "selectable_tier",
+          "defaultSelected": true,
+          "tiers": {
+            "home": {
+              "label": "At Home or Society Clubhouse",
+              "pricingType": "flat",
+              "min": 4000,
+              "max": 8000,
+              "recommended": 6000,
+              "notes": "Society maintenance, lift electricity & post-party cleanup variable charges.",
+              "reducedSpec": "Hosting in society flat or building clubhouse."
+            },
+            "community_hall": {
+              "label": "Banquet Halls or Lawns",
+              "pricingType": "flat",
+              "min": 30000,
+              "max": 70000,
+              "recommended": 50000,
+              "notes": "Air-conditioned banquet or terrace lawn rental in Mumbai scaled by headcount table.",
+              "reducedSpec": "Off-peak timing slot or community society hall."
+            },
+            "play_centre": {
+              "label": "Restaurant or Activity Places",
+              "pricingType": "per_guest",
+              "min": 700,
+              "max": 1300,
+              "recommended": 950,
+              "notes": "Turnkey private party dining room or indoor play centre package with basic decor & coordinator.",
+              "reducedSpec": "Standard dining package without extended play hours."
+            }
+          },
+          "defaultTier": "community_hall",
+          "vendorRef": "venue"
+        },
+        {
+          "id": "catering",
+          "name": "Catering & Refreshments",
+          "category": "core",
+          "type": "per_guest",
+          "defaultSelected": true,
+          "pricingType": "per_guest",
+          "min": 650,
+          "max": 1400,
+          "recommended": 950,
+          "notes": "Full-service multi-course banquet menu with live cooking stations."
+        },
+        {
+          "id": "decorations",
+          "name": "Decorations, Stage & Floral Styling",
+          "category": "core",
+          "type": "flat",
+          "defaultSelected": true,
+          "pricingType": "flat",
+          "min": 8000,
+          "max": 35000,
+          "recommended": 18000,
+          "notes": "Stage backdrop, entrance arch, ambient lighting, and floral centerpieces."
+        },
+        {
+          "id": "invitations",
+          "name": "Invitations & Announcements",
+          "category": "core",
+          "type": "flat",
+          "defaultSelected": true,
+          "pricingType": "flat",
+          "min": 1000,
+          "max": 5000,
+          "recommended": 2500,
+          "notes": "Digital video invitations and guest RSVP management."
+        },
+        {
+          "id": "entertainment",
+          "name": "Entertainment / Emcee / Music",
+          "category": "optional_extra",
+          "type": "flat",
+          "defaultSelected": false,
+          "pricingType": "flat",
+          "min": 7000,
+          "max": 18000,
+          "recommended": 11000,
+          "notes": "Professional event anchor / DJ / live performer."
+        },
+        {
+          "id": "photography",
+          "name": "Photography & Video Highlights",
+          "category": "optional_extra",
+          "type": "flat",
+          "defaultSelected": false,
+          "pricingType": "flat",
+          "min": 8000,
+          "max": 22000,
+          "recommended": 14000,
+          "notes": "Full celebration coverage with candid photos and short recap video."
+        }
+      ]
+    }
+  }
+}

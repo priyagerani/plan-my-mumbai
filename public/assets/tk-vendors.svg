@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0B1E28"/>
+      <stop offset="50%" stop-color="#102E3F"/>
+      <stop offset="100%" stop-color="#07151D"/>
+    </linearGradient>
+    <linearGradient id="blueCard" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#194560"/>
+      <stop offset="100%" stop-color="#0F2B3C"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="400" height="240" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle Blueprint Grid Lines -->
+  <g opacity="0.1" stroke="#38BDF8" stroke-width="1">
+    <line x1="0" y1="60" x2="400" y2="60" />
+    <line x1="0" y1="120" x2="400" y2="120" />
+    <line x1="0" y1="180" x2="400" y2="180" />
+    <line x1="80" y1="0" x2="80" y2="240" />
+    <line x1="160" y1="0" x2="160" y2="240" />
+    <line x1="240" y1="0" x2="240" y2="240" />
+    <line x1="320" y1="0" x2="320" y2="240" />
+  </g>
+
+  <!-- Blue Checklist Clipboard Card -->
+  <g transform="translate(115, 20)">
+    <!-- Clipboard Board -->
+    <rect x="-10" y="-5" width="190" height="205" rx="12" fill="#071720" stroke="rgba(56, 189, 248, 0.35)" stroke-width="1.5" />
+    <rect x="0" y="8" width="170" height="185" rx="8" fill="url(#blueCard)" stroke="rgba(56, 189, 248, 0.25)" stroke-width="1" />
+    
+    <!-- Clip at top -->
+    <rect x="55" y="-12" width="60" height="22" rx="5" fill="#38BDF8" opacity="0.95" />
+    <circle cx="85" cy="-1" r="3" fill="#071720" />
+
+    <!-- Checklist Item 1 (Checked) -->
+    <g transform="translate(18, 36)">
+      <circle cx="10" cy="10" r="10" fill="#0284C7" />
+      <path d="M6 10 l3 3 l6 -6" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+      <rect x="28" y="5" width="95" height="4" rx="2" fill="#BAE6FD" opacity="0.95" />
+      <rect x="28" y="13" width="60" height="3" rx="1.5" fill="#7DD3FC" opacity="0.6" />
+    </g>
+
+    <!-- Checklist Item 2 (Checked) -->
+    <g transform="translate(18, 73)">
+      <circle cx="10" cy="10" r="10" fill="#0284C7" />
+      <path d="M6 10 l3 3 l6 -6" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+      <rect x="28" y="5" width="85" height="4" rx="2" fill="#BAE6FD" opacity="0.95" />
+      <rect x="28" y="13" width="70" height="3" rx="1.5" fill="#7DD3FC" opacity="0.6" />
+    </g>
+
+    <!-- Checklist Item 3 (In progress) -->
+    <g transform="translate(18, 110)">
+      <circle cx="10" cy="10" r="10" fill="#0369A1" stroke="#38BDF8" stroke-width="1.5" />
+      <path d="M6 10 l3 3 l6 -6" stroke="#38BDF8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+      <rect x="28" y="5" width="100" height="4" rx="2" fill="#BAE6FD" opacity="0.95" />
+      <rect x="28" y="13" width="50" height="3" rx="1.5" fill="#7DD3FC" opacity="0.6" />
+    </g>
+    
+    <!-- Checklist Item 4 -->
+    <g transform="translate(18, 147)">
+      <circle cx="10" cy="10" r="10" fill="none" stroke="rgba(56, 189, 248, 0.45)" stroke-width="1.5" />
+      <rect x="28" y="5" width="75" height="4" rx="2" fill="#BAE6FD" opacity="0.65" />
+      <rect x="28" y="13" width="45" height="3" rx="1.5" fill="#7DD3FC" opacity="0.4" />
+    </g>
+  </g>
+</svg>

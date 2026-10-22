@@ -1,0 +1,21 @@
+{
+  "name": "auraplan-ai",
+  "version": "1.0.0",
+  "description": "AI-Native Event Planning Platform powered by Google Gemini & Grounded Mumbai Vendor Datasets",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "genai",
+    "gemini",
+    "event-planner",
+    "hackathon",
+    "mumbai",
+    "weddings",
+    "birthdays",
+    "community-events"
+  ],
+  "author": "Antigravity Pair Programmer",
+  "license": "MIT"
+}
